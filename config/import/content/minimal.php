@@ -12,8 +12,8 @@
  * @link    https://my.studiopress.com/themes/monochrome/
  */
 
-// 変数に画像を代入
-$aoshigure_homepage_background1 = CHILD_URL . '/config/import/images/minimal/aoshgiure-background-1';
+// Images by Joel Filipe on Unsplash: https://unsplash.com/photos/TmSYx44Y0QY and https://unsplash.com/photos/_Di_gyxSdSk.
+$monochrome_homepage_background1 = CHILD_URL . '/config/import/images/minimal/minimal-background-1.jpg';
 $monochrome_homepage_background2 = CHILD_URL . '/config/import/images/minimal/minimal-background-2.jpg';
 
 // Placeholder logos.
@@ -27,24 +27,23 @@ $monochrome_homepage_logos = [
 ];
 
 return <<<CONTENT
-<!-- wp:atomic-blocks/ab-container {"containerPaddingTop":30,"containerPaddingRight":8,"containerPaddingBottom":30,"containerPaddingLeft":8,"containerWidth":"full","containerMaxWidth":1200,"containerBackgroundColor":"#000000","containerImgID":907,"containerDimRatio":80,"className":"narrow-content light-text"} -->
-<div style="background-color:#000000;padding-left:8%;padding-right:8%;padding-bottom:30%;padding-top:30%" class="wp-block-atomic-blocks-ab-container narrow-content light-text ab-block-container alignfull"><div class="ab-container-inside"><div class="ab-container-image-wrap"><img class="ab-container-image has-background-dim-80 has-background-dim" src="$aoshigure_homepage_background1" alt=""/></div><div class="ab-container-content" style="max-width:1200px">
-<!-- wp:heading {"level":1,"align":"left","className":"bold-heading-text fade-in-up"} -->
-<h1 style="text-align:left" class="bold-heading-text fade-in-up">創造とロジックへの挑戦。</h1>
+<!-- wp:atomic-blocks/ab-container {"containerPaddingTop":30,"containerPaddingRight":8,"containerPaddingBottom":30,"containerPaddingLeft":8,"containerWidth":"full","containerMaxWidth":1200,"containerBackgroundColor":"#000000","containerImgID":907,"containerDimRatio":20,"className":"narrow-content light-text"} -->
+<div style="background-color:#000000;padding-left:8%;padding-right:8%;padding-bottom:30%;padding-top:30%" class="wp-block-atomic-blocks-ab-container narrow-content light-text ab-block-container alignfull"><div class="ab-container-inside"><div class="ab-container-image-wrap"><img class="ab-container-image has-background-dim-20 has-background-dim" src="$monochrome_homepage_background1" alt=""/></div><div class="ab-container-content" style="max-width:1200px"><!-- wp:heading {"level":1,"align":"left","className":"bold-heading-text fade-in-up"} -->
+<h1 style="text-align:left" class="bold-heading-text fade-in-up">We crush minimal design.</h1>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"customTextColor":"#ffffff","fontSize":"small","className":"fade-in-up"} -->
-<p style="color:#ffffff" class="has-text-color has-small-font-size fade-in-up">AOSHIGUREは創造とロジックが重なり合う地点に真実があると信じています。この世界に住む人々は情緒的であり、論理的でもあります。その瞬間の思考や気分で結果が異なることもあるでしょう。だからこそ、ブレない軸を作り上げるためにロジックを柱として、創造力で柔軟性を持たせるという挑戦をしています。</p>
+<p style="color:#ffffff" class="has-text-color has-small-font-size fade-in-up"><strong>Monochrome</strong> is a creative agency based in Chicago. We developed the Genesis Framework and build mobile-optimized themes for WordPress.</p>
 <!-- /wp:paragraph --></div></div></div>
 <!-- /wp:atomic-blocks/ab-container -->
 
 <!-- wp:atomic-blocks/ab-container {"containerPaddingTop":10,"containerPaddingRight":8,"containerPaddingBottom":10,"containerPaddingLeft":8,"containerWidth":"full","containerMaxWidth":1200} -->
 <div style="padding-left:8%;padding-right:8%;padding-bottom:10%;padding-top:10%" class="wp-block-atomic-blocks-ab-container ab-block-container alignfull"><div class="ab-container-inside"><div class="ab-container-content" style="max-width:1200px"><!-- wp:heading {"className":"bold-text fade-in-up"} -->
-<h2 class="bold-text fade-in-up">情報を絞り込むことでメッセージ力が高まる</h2>
+<h2 class="bold-text fade-in-up">We build experience.</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"fade-in-up"} -->
-<p class="fade-in-up">情報が溢れているこの時代だからこそ、不要な機能や装飾を避けて必要最小限にしたデザインが求められる。</p>
+<p class="fade-in-up">A minimalist approach is the only way to design a website.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:separator {"className":"is-style-default fade-in-up"} -->
@@ -54,11 +53,11 @@ return <<<CONTENT
 <!-- wp:columns {"columns":3,"className":"fade-in-up"} -->
 <div class="wp-block-columns has-3-columns fade-in-up"><!-- wp:column -->
 <div class="wp-block-column"><!-- wp:heading {"level":3} -->
-<h3>コンテンツの魅力をダイレクトに伝えられる</h3>
+<h3>Design</h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"customFontSize":16} -->
-<p style="font-size:16px">ミニマムデザインの最も良い点はコンテンツの魅力をダイレクトに伝えることができること。他の要素に目を奪われることなく、伝えたいメッセージを直で表現することができるから。</p>
+<p style="font-size:16px">With an emphasis on typography, white space, and mobile-optimized design, your website will look absolutely breathtaking.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons {"align":"left"} -->
@@ -70,11 +69,11 @@ return <<<CONTENT
 
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:heading {"level":3} -->
-<h3>他との差別化、そして強い印象を残す</h3>
+<h3>Content</h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"customFontSize":16} -->
-<p style="font-size:16px">シンプルなコンテンツは他サイトとの差別化になります。一点集中型のミニマムデザインはそれを見ている最中だけでなく、見終わった後もユーザーの心の中に強い印象を残す。</p>
+<p style="font-size:16px">Our team will teach you the art of writing audience-focused content that will help you achieve the success you truly deserve.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons {"align":"left"} -->
@@ -86,11 +85,11 @@ return <<<CONTENT
 
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:heading {"level":3} -->
-<h3>自分のスキルを最大限にアピール出来る</h3>
+<h3>Strategy</h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"customFontSize":16} -->
-<p style="font-size:16px">ミニマムデザインと相性が良いのはポートフォリオサイト。ミニマムデザインの利点を生かして、作品とプロフィールに視点を誘導し、注目を集めることができるため。</p>
+<p style="font-size:16px">We help creative entrepreneurs build their digital business by focusing on three key elements of a successful online platform.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons {"align":"left"} -->
@@ -156,11 +155,11 @@ return <<<CONTENT
 
 <!-- wp:atomic-blocks/ab-container {"containerPaddingTop":10,"containerPaddingRight":8,"containerPaddingBottom":2,"containerPaddingLeft":8,"containerWidth":"full","containerMaxWidth":1200} -->
 <div style="padding-left:8%;padding-right:8%;padding-bottom:2%;padding-top:10%" class="wp-block-atomic-blocks-ab-container ab-block-container alignfull"><div class="ab-container-inside"><div class="ab-container-content" style="max-width:1200px"><!-- wp:heading {"className":"bold-text fade-in-up"} -->
-<h2 class="bold-text fade-in-up">Minimal Bolg</h2>
+<h2 class="bold-text fade-in-up">We create stories.</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"fade-in-up"} -->
-<p class="fade-in-up">MInimal Bolgでは、ミニマムデザインにおいて重要なことについて発信しています。</p>
+<p class="fade-in-up">A killer narrative will turn your readers into raving fans.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:separator {"className":"fade-in-up"} -->
